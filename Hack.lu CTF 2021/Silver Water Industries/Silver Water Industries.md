@@ -10,11 +10,22 @@ If $c_i$ is a quadratic residue, then we set bit $m_i = 1$. Otherwise, $m_i = 0$
 
 We can check if $c_i$ is a quadratic residue by calculating $c_i^{(p-1)/2}\equiv 1\mod p$ and $c^{{(q-1)/2}}\equiv 1\mod q$. However, since $c_i$, $p$ and $q$ are all large integers, this will likely give us an overflow error. 
 
-An alternative method to check if it is a $c_i$ is a quadratic residue is by calculating the [Jacobi symbol](https://en.wikipedia.org/wiki/Jacobi_symbol). The Jacobi symbol $\left({\frac{a}{n}}\right)$ is the product of [Legendre symbols] for each prime factorization of $n$. The [Legendre symbol](https://en.wikipedia.org/wiki/Legendre_symbol) is defined as follows: 
+An alternative method to check if it is a $c_i$ is a quadratic residue is by calculating the [Jacobi symbol](https://en.wikipedia.org/wiki/Jacobi_symbol). The Jacobi symbol $\left({\frac{a}{p}}\right)$ is the product of [Legendre symbols](https://en.wikipedia.org/wiki/Legendre_symbol) for each prime factorization of $p$. The Legendre symbol is defined as follows: 
 
-![image.png](attachment:image.png)
+\begin{equation*}
+  \left(\frac{a}{p} \right) =
+    \begin{cases}
+      0 & \text{if } a \equiv 0 (\text{mod } p),\\
+      1 & \text{if } a \not\equiv 0 (\text{mod } p) \text{ and for some integer } x: a \equiv x^2 (\mod p) \\
+      -1 & \text{if } a \not\equiv 0 (\text{mod } p ) \text{ and there is no such x.}
+    \end{cases}       
+\end{equation*}
 
-Using the Legendre symbol, we can decrypt the message as follows:
+If the Jacobi symbol for an encrypted bit $c_i$ is 1, then we know that the decrypted bit $m_i$ is 0
+
+If the Jacobi symbol for an encrypted bit $c_i$ is -1, then we know that the decrypted bit $m_i$ is 1
+
+Using the Jacobi symbol, we can decrypt the message as follows:
 
 
 ```python
