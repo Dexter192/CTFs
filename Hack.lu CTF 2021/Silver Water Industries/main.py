@@ -7,7 +7,7 @@ pwn.context.log_level = 'error'
 sh = pwn.remote('flu.xxx', 20060)
 
 # Receive N
-N = int(sh.recvuntil('\n'))
+N = int(sh.recvuntil(b'\n'))
 print("N: ", N)
 
 # Compute the two primfactors using cypari
@@ -73,7 +73,7 @@ for i in range(20):
     q_list = []
 
     # Receive the token from the server and turn into a list of encoded bits
-    token = sh.recvuntil('\n').decode('utf-8')
+    token = sh.recvuntil(b'\n').decode('utf-8')
     print(token)
     j_text = token.replace(' ', ',')
     bit_enc_list = json.loads(j_text)
@@ -103,12 +103,12 @@ else:
     msg = q_string.format()
 
 print('Decoded string: {}'.format(msg))
-sh.sendline(msg)
+sh.sendline(msg.encode('utf-8'))
 
 # Receive empty line before our flag
-sh.recvuntil('\n')
-flag = sh.recvuntil('\n')
-print(flag)
+sh.recvuntil(b'\n')
+flag = sh.recvuntil(b'\n')
+print(flag.decode('utf-8'))
 
 """
 Sample output
