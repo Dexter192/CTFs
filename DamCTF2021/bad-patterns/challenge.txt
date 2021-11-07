@@ -1,0 +1,130 @@
+A hacker was too lazy to do proper encryption. However, they left us some examples of how their encryption "algo" was supposed to work.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lpthq jrvym!frpos"vmt!cpit-"fsntgfxeuwu$aeksmsdkqk fnlx,!uhh eq#iivupsd!vhqppt#mndkgmdvpw$uu"oebpth$eu"gslpth$mbiqe bnluub0
+#Yt!gqmm!cg$mjplq wgqman.#uuju#rotvuyd!g{irdkwetjqq$umndqcp"oebptlw okvm vv#eljsxmp!g{$eb"fsmnqgs dqqwerwdx.!Fxms!cxxe!kuyrf"
+gslpt#mn!thtrfjhrdftlx jp#zomwsxaug#zemkw$etuh$cjnoym!frposg#iu!hxkibv#rumnd$pbtletvt1$Eyehttfwu$sjpw$odedicbv#guqkgetbv#
+roo"svojfhrt-"vynu"lr dwota!sxm phimcjc#hetguynu"pslmkw$aokp$ie"hwt!ndfoswp2
+
+ !"!"$ ! #!#$"$"$ #!!$ ##!$
+
+Find the pattern and try it on:
+"bagelarenotwholewheatsometimes"
+
+
+We can ignore the spaces. Our phrase doesn't have any
+o - p r o s q s p p s p o
+m - q m p p q m m m q n q
+
+m - q if vocale + m
+m - p if
+
+q
+Lorem - Lpthq
+tempor - vhqppt
+minim - mjplq
+ullamco - umndqcp
+
+p
+amet - cpit
+eiusmod - iivupsd
+
+
+Lorem - Lpthq
+ipsum - jrvym
+amet - cpit
+eiusmod - iivupsd
+tempor - vhqppt
+magna - mbiqe
+enim - gqmm
+minim - mjplq
+veniam - wgqman
+ullamco - umndqcp
+
+
+
+Lorem - Lpthq
+ipsum - jrvym
+dolor - frpos
+sit - vmt
+amet - cpit
+, - -
+consectetur - fsntgfxeuwu
+adipiscing - aeksmsdkqk
+elit - fnlx
+, - ,
+sed - uhh
+do - eq
+eiusmod - iivupsd
+tempor - vhqppt
+incididunt - mndkgmdvpw
+ut - uu
+labore - oebpth
+et - eu
+dolore - gslpth
+magna - mbiqe
+aliqua - bnluub
+. - 0
+Ut - Yt
+enim - gqmm
+ad - cg
+minim - mjplq
+veniam - wgqman
+, - .
+quis - uuju
+nostrud - rotvuyd
+exercitation - g{irdkwetjqq
+ullamco - umndqcp
+laboris - oebptlw
+nisi - okvm
+ut - vv
+aliquip - eljsxmp
+ex - g{
+ea - eb
+commodo - fsmnqgs
+consequat - dqqwerwdx
+. - .
+Duis - Fxms
+aute - cxxe
+irure - kuyrf
+dolor - gslpt
+in - mn
+reprehenderit - thtrfjhrdftlx
+in - jp
+voluptate - zomwsxaug
+velit - zemkw
+esse - etuh
+cillum - cjnoym
+dolore - frposg
+eu - iu
+fugiat - hxkibv
+nulla - rumnd$
+pariatur - pbtletvt
+. - 1
+Excepteur - Eyehttfwu
+sint - sjpw
+occaecat - odedicbv
+cupidatat - guqkgetbv
+non - roo
+proident - svojfhrt
+, - -
+sunt - vynu
+in - lr
+culpa - dwota
+qui - sxm
+officia - phimcjc
+deserunt - hetguynu
+mollit - pslmkw
+anim - aokp
+id - ie
+est - hwt
+laborum - ndfoswp
+. - 2
+
+
+
