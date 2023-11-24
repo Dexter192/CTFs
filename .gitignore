@@ -1,3 +1,4 @@
 .idea/
 DefCamp2020/
 *.ipynb_checkpoints
+.venv/*
